@@ -1,0 +1,20 @@
+[project]
+name = "hw-04"
+version = "0.1.0"
+description = "asynchronous file sorting"
+authors = [
+    {name = "Iryna",email = "pysarenkoiryna@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "black (>=25.1.0,<26.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
